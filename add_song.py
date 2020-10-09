@@ -7,9 +7,10 @@ import subprocess
 import xml.etree.ElementTree as ET
 
 
-WORKING_DIR="/home/ishaheen/temp"
-MUSIC_DIR="/home/ishaheen/Music/TotesFavMusic"
-PLAYLIST_LOCATION="/home/ishaheen/Music/TotesFavMusic.xspf"
+# Configure these to your preference
+WORKING_DIR="/home/ishaheen/temp"  # this dir is created and deleted with every run
+MUSIC_DIR="/home/ishaheen/Music/TotesFavMusic"  # final destination of downloaded file
+PLAYLIST_LOCATION="/home/ishaheen/Music/TotesFavMusic.xspf"  # location of music playlist
 
 
 def main():
